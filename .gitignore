@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Images - don't push dataset/augmented images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.gif
+
+# Input/output folders
+input/
+output/
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Claude
+.claude/
+
+# uv lock
+uv.lock
+
+# Zip archives
+*.zip
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
